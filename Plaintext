@@ -1,0 +1,11 @@
+Reconhecimento-Facial-Azure-ML/
+├── README.md              # Documentação do projeto
+├── requirements.txt        # Dependências
+├── data/                   # Conjunto de dados (evitar subir dados sensíveis)
+├── notebooks/              # Notebooks para testes e análises
+├── src/                    # Código principal do projeto
+│   ├── main.py             # Script principal
+│   ├── data_loader.py      # Funções para carregar dados
+│   ├── model_train.py      # Funções de treinamento
+│   └── face_recognition.py # Funções de reconhecimento facial
+└── azure_pipelines.yml     # Pipeline de integração contínua no Azure
